@@ -131,3 +131,10 @@ dmypy.json
 # Custom
 App-2-Flatmates-Bill/venv/*
 App-3-Project-Math-Painting/venv/*
+Geometry_Game/venv/*
+App-4b-Webcam-Photo-Sharer/venv/*
+App-4a-Webcam-Photo-Searcher/venv/*
+App-5-Flatmates-Bill-Web-App/venv/*
+App-6-Project-Calorie-Webapp/venv/*
+App-7-Automated-Emails/venv/*
+App-8-Instant-Dictionary-Webapp/venv/*

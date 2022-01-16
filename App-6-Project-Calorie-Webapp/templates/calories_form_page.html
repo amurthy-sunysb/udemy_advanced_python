@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>The calories calculator</h2>
+<p>Fill in the age, weight, height and location to get the calories for the day.</p>
+
+<form action="/results", method="post">
+    {{calories_form.age.label}} {{calories_form.age}}
+    <br><br>
+    {{calories_form.weight.label}} {{calories_form.weight}}
+    <br><br>
+    {{calories_form.height.label}} {{calories_form.height}}
+    <br><br>
+    <p> We also need the location for a more accurate estimate based on your local temperature. </p>
+    {{calories_form.country.label}} {{calories_form.country}}
+    <br><br>
+    {{calories_form.city.label}} {{calories_form.city}}
+    <hr>
+    {{calories_form.button}}
+</form>
+</body>
+</html>
